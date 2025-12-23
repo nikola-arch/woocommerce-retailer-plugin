@@ -1,0 +1,21 @@
+{
+  "name": "retailer/sw-woocommerce",
+  "description": "Retailer Plugin for dropshippers for importing products.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Retailer plugin",
+      "email": "dev@shopwoo.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "classmap": [
+      "includes/"
+    ]
+  }
+}
